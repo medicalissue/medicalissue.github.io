@@ -2,7 +2,7 @@
 
 - **Name:** Junesang Kwon
 - **Affiliation:** Undergraduate, Department of Artificial Intelligence, Chung-Ang University
-- **Research Interests:** Homomorphic Encryption, Zero-Knowledge Proofs, Secure Multiparty Computation, AI Security
+- **Research Interests:** Homomorphic Encryption, Zero-Knowledge Proofs, Privacy-Preserving AI
 
 ## Motivation
 

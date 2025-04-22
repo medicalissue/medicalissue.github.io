@@ -1,4 +1,4 @@
-# Junesang Kwon Portfolio
+# Portfolio
 
 Welcome! I am an undergraduate student passionate about the intersection of homomorphic encryption and artificial intelligence.
 
