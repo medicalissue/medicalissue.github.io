@@ -1,4 +1,4 @@
-# Junesang Kwon Portfolio Pages
+# Portfolio Pages
 
 This repository contains the source files for my personal portfolio website, hosted via GitHub Pages.
 
