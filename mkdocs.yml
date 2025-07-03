@@ -52,5 +52,3 @@ plugins:
       separator: '[\s\-,:!=\[\]()/`]+'
       prebuild_index: true
       indexing: 'full'
-  - git-revision-date-localized:
-      enable_creation_date: true

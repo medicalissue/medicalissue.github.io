@@ -2,7 +2,7 @@
 
 ## Privacy-Preserving Machine Learning Researcher
 
-Welcome! I am an undergraduate research assistant at **PAIC Lab (Privacy-Aware AI Computing Lab)** at Chung-Ang University, passionate about developing AI systems that preserve user privacy.
+Welcome! I am an undergraduate research assistant at **Private Artificial Intelligence and Cryptography Lab (PAIC Lab)** at Chung-Ang University, passionate about developing AI systems that preserve user privacy.
 
 ### 🔬 Current Research Focus
 - **Privacy-Preserving Machine Learning (PPML)**
@@ -20,7 +20,7 @@ My research aims to bridge the gap between theoretical privacy guarantees and pr
 - **Programming**: Python, C++, PyTorch, TensorFlow
 
 ### 🏢 Current Position
-- **Undergraduate Research Assistant** at PAIC Lab
+- **Undergraduate Research Assistant** at PAIC Lab (2025년 7월~)
 - **Department**: Artificial Intelligence, Chung-Ang University
 - **Research Projects**: Diffusion model optimization, secure ML frameworks
 

@@ -2,8 +2,8 @@
 
 ## Research Projects
 
-### PAIC Lab - Privacy-Preserving Machine Learning
-**2024 - Present | Undergraduate Research Assistant**
+### Private Artificial Intelligence and Cryptography Lab (PAIC Lab) - Privacy-Preserving Machine Learning
+**2025년 7월~ | Undergraduate Research Assistant**
 
 #### Diffusion Model Optimization Project
 - **Goal**: Develop lightweight diffusion models for privacy-preserving applications

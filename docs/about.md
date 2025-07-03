@@ -2,8 +2,8 @@
 
 - **Name:** Junesang Kwon (권준상)
 - **Affiliation:** Undergraduate, Department of Artificial Intelligence, Chung-Ang University
-- **Research Lab:** PAIC Lab (Privacy-Aware AI Computing Lab)
-- **Position:** Undergraduate Research Assistant
+- **Research Lab:** Private Artificial Intelligence and Cryptography Lab (PAIC Lab)
+- **Position:** Undergraduate Research Assistant (2025년 7월~)
 - **Research Interests:** Privacy-Preserving Machine Learning (PPML), Homomorphic Encryption, Federated Learning
 
 ## Motivation
