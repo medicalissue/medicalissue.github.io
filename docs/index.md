@@ -1,12 +1,39 @@
-# Portfolio
+# Junesang Kwon (권준상)
 
-Welcome! I am an undergraduate student passionate about the intersection of homomorphic encryption and artificial intelligence.
+## Privacy-Preserving Machine Learning Researcher
 
-- **Main Interests:** Homomorphic Encryption, Zero-Knowledge Proofs, Privacy-Preserving AI
-- **Goal:** To develop secure and practical AI systems using advanced cryptography.
+Welcome! I am an undergraduate research assistant at **PAIC Lab (Privacy-Aware AI Computing Lab)** at Chung-Ang University, passionate about developing AI systems that preserve user privacy.
 
-## Featured Projects
+### 🔬 Current Research Focus
+- **Privacy-Preserving Machine Learning (PPML)**
+- **Homomorphic Encryption** for secure computation
+- **Federated Learning** for distributed privacy-preserving training
+- **Model Optimization** and lightweight techniques
 
-- None, for now.
+### 🎯 Research Goals
+My research aims to bridge the gap between theoretical privacy guarantees and practical AI applications. I'm working on developing efficient, secure, and privacy-preserving machine learning systems that can be deployed in real-world scenarios.
 
-See more on the [Projects](projects.md) page.
+### 📚 Key Areas of Expertise
+- **Cryptography**: Homomorphic encryption, secure multi-party computation
+- **Machine Learning**: Deep learning, model optimization, knowledge distillation
+- **Privacy Technologies**: Differential privacy, federated learning, secure aggregation
+- **Programming**: Python, C++, PyTorch, TensorFlow
+
+### 🏢 Current Position
+- **Undergraduate Research Assistant** at PAIC Lab
+- **Department**: Artificial Intelligence, Chung-Ang University
+- **Research Projects**: Diffusion model optimization, secure ML frameworks
+
+### 📖 Featured Research
+- **Diffusion Model Lightweighting**: Optimizing diffusion models for privacy-preserving applications
+- **Secure Multi-Party Computation**: Enabling collaborative ML without data sharing
+- **Federated Learning Systems**: Building privacy-preserving distributed learning frameworks
+
+---
+
+**Interested in collaborating on privacy-preserving AI projects?** Let's connect!
+
+- 📧 [Email](mailto:your-email@cau.ac.kr)
+- 🐙 [GitHub](https://github.com/medicalissue)
+- 📝 [Blog](https://velog.io/@medicalissue)
+- 📄 [Research Notes](research.md)
