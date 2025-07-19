@@ -1,0 +1,104 @@
+{{ define "main" }}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    {{ .Site.Params.hero.title }}
+                </h1>
+                <p class="hero-subtitle">
+                    {{ .Site.Params.hero.subtitle }}
+                </p>
+                <p class="hero-description">
+                    {{ .Site.Params.hero.description }}
+                </p>
+                <div class="hero-buttons">
+                    <a href="/research/" class="btn btn-primary">{{ site.Params.hero.primary_button }}</a>
+                    <a href="/contact/" class="btn btn-secondary">{{ site.Params.hero.secondary_button }}</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="vision-container">
+                    
+                    <!-- Feature Detection -->
+                    <div class="feature-detector">
+                        <div class="scanner"></div>
+                        <div class="detection-zone">
+                            <div class="feature-point" style="animation-delay: 2.5s;"></div>
+                            <div class="feature-point" style="animation-delay: 2.7s;"></div>
+                            <div class="feature-point" style="animation-delay: 2.9s;"></div>
+                            <div class="feature-point" style="animation-delay: 3.1s;"></div>
+                            <div class="feature-point" style="animation-delay: 3.3s;"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Analysis Results -->
+                    <div class="analysis-panel">
+                        <div class="result-bar" style="animation-delay: 3.5s;"></div>
+                        <div class="result-bar" style="animation-delay: 3.7s;"></div>
+                        <div class="result-bar" style="animation-delay: 3.9s;"></div>
+                        <div class="confidence-meter">
+                            <div class="confidence-fill" style="animation-delay: 4.1s;"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Processing Flow -->
+                    <div class="flow-arrows">
+                        <div class="arrow arrow-1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+    </div>
+</section>
+
+<!-- Quick Stats -->
+<section class="stats">
+    <div class="container">
+        <div class="stats-grid">
+            {{ range site.Data.stats }}
+            <div class="stat-item">
+                <div class="stat-number">{{ .number }}</div>
+                <div class="stat-label">{{ .label }}</div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<!-- Featured Research -->
+<section class="featured-research">
+    <div class="container">
+        <h2 class="section-title">{{ site.Params.sections.featured_research }}</h2>
+        <div class="research-preview">
+            {{ range first 3 (where .Site.RegularPages "Section" "research") }}
+            <div class="research-card">
+                <div class="card-image">
+                    {{ if .Params.image }}
+                    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+                    {{ else }}
+                    <div class="image-placeholder">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    {{ end }}
+                </div>
+                <div class="card-content">
+                    <h3>{{ .Title }}</h3>
+                    <p>{{ .Summary }}</p>
+                    <div class="tech-tags">
+                        {{ range .Params.tags }}
+                        <span class="tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    <a href="{{ .RelPermalink }}" class="read-more">{{ site.Params.research.read_more }}</a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

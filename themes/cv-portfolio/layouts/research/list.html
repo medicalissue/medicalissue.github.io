@@ -1,0 +1,43 @@
+{{ define "main" }}
+<section class="page-header">
+    <div class="container">
+        <h1 class="page-title">{{ .Title }}</h1>
+        <p class="page-subtitle">{{ .Content | plainify }}</p>
+    </div>
+</section>
+
+<section class="research-list">
+    <div class="container">
+        <div class="research-grid">
+            {{ range .Pages }}
+            <article class="research-item">
+                <div class="research-image">
+                    {{ if .Params.image }}
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                    {{ else }}
+                    <div class="image-placeholder">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    {{ end }}
+                </div>
+                <div class="research-content">
+                    <h2 class="research-title">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h2>
+                    <p class="research-summary">{{ .Summary }}</p>
+                    <div class="research-meta">
+                        <span class="research-date">{{ .Date.Format "2006-01-02" }}</span>
+                        <div class="research-tags">
+                            {{ range .Params.tags }}
+                            <span class="tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                    </div>
+                    <a href="{{ .RelPermalink }}" class="read-more">{{ site.Params.research.read_more }}</a>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }} 

@@ -1,0 +1,68 @@
+baseURL = 'https://medicalissue.github.io/'
+languageCode = 'ko-kr'
+title = 'Junesang Kwon | Portfolio'
+theme = 'cv-portfolio'
+
+[params]
+  description = "Junesang Kwon's Portfolio"
+  author = "Junesang Kwon"
+  github = "https://github.com/medicalissue"
+  linkedin = "https://linkedin.com/in/medicalissue"
+  email = "medicalissue@naver.com"
+  university = "중앙대학교 AI학과"
+  university_period = "2024~"
+
+  [params.navbar]
+    logo_text = "Junesang Kwon | Portfolio"
+  
+  [params.hero]
+    title = "Junesang Kwon"
+    subtitle = "Uncovering how causality connects everything🔗"
+    description = "모든 것은 인과를 바탕으로 연결된다고 믿습니다."
+    primary_button = "연구 보기"
+    secondary_button = "연락하기"
+
+  [params.sections]
+    featured_research = "Featured Research"
+
+  [params.contact]
+    info_title = "Contact Information"
+    info_text = "언제든지 편하게 연락주세요. 가능한 한 빨리 회신 드리겠습니다."
+    form_title = "Send a Message"
+    form_name = "Your Name"
+    form_email = "Your Email"
+    form_message = "Your Message"
+    form_button = "Send Message"
+  
+  [params.research]
+    read_more = "자세히 보기 →"
+
+  [params.footer]
+    copyright = "All rights reserved."
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+    weight = 2
+  [[menu.main]]
+    identifier = "papers"
+    name = "Papers"
+    url = "/papers/"
+    weight = 3
+  [[menu.main]]
+    identifier = "experience"
+    name = "Experience"
+    url = "/experience/"
+    weight = 4
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 5

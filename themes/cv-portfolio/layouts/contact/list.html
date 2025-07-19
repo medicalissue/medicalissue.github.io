@@ -1,0 +1,42 @@
+{{ define "main" }}
+<section class="page-header">
+    <div class="container">
+        <h1 class="page-title">{{ .Title }}</h1>
+        <p class="page-subtitle">{{ .Content }}</p>
+    </div>
+</section>
+
+<section id="contact" class="contact-page">
+    <div class="container">
+        <div class="contact-center">
+            <div class="contact-info">
+                <h3>{{ site.Params.contact.info_title }}</h3>
+                <p>{{ site.Params.contact.info_text }}</p>
+                
+                <div class="contact-details">
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <span>{{ site.Params.author }}</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-github"></i>
+                        <a href="{{ site.Params.github }}" target="_blank">GitHub</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="{{ site.Params.linkedin }}" target="_blank">LinkedIn</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>{{ site.Params.university }} ({{ site.Params.university_period }})</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }} 

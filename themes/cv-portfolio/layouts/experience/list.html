@@ -1,0 +1,30 @@
+{{ define "main" }}
+<section class="page-header">
+    <div class="container">
+        <h1 class="page-title">{{ .Title }}</h1>
+        <p class="page-subtitle">{{ .Content }}</p>
+    </div>
+</section>
+
+<section id="experience" class="experience-page">
+    <div class="container">
+        <div class="timeline">
+            {{ range .Pages.ByParam "weight" }}
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>{{ .Title }}</h3>
+                    <p class="timeline-subtitle">{{ .Params.subtitle }}</p>
+                    <p class="timeline-date">{{ .Params.date_range }}</p>
+                    <div class="timeline-body">
+                        {{ .Content }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }} 
